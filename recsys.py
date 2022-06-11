@@ -43,6 +43,7 @@ moviesWithGenres_df = moviesWithGenres_df.fillna(0)
 #Drop removes a specified row or column from a dataframe
 ratings_df = ratings_df.drop('timestamp', 1)
 
+#creating an input user to recommend movies to
 userInput = [
             {'title':'Breakfast Club, The', 'rating':5},
             {'title':'Toy Story', 'rating':3.5},
